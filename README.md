@@ -89,6 +89,6 @@ Microbenchmark data is stored in `.txt` files, whose data units are consistent w
 
 1. As noted above, please check your hardware setup [here](setup.md).
 
-2. Please follow Sections 1 and 2 of [vSoC README.md](https://github.com/VirtualSoC/vsoc) to download and run vSoC. If you want to build vSoC from source, please refer to [build-vsoc.md](https://github.com/VirtualSoC/vsoc/blob/beta/docs/build-vsoc.md) for details.
+2. Please follow Sections 1 and 2 of [vSoC README.md](https://github.com/VirtualSoC/vsoc#vsoc-efficient-virtual-system-on-chip-on-heterogeneous-hardware) to download and run vSoC. If you want to build vSoC from source, please refer to [build-vsoc.md](https://github.com/VirtualSoC/vsoc/blob/beta/docs/build-vsoc.md) for details.
 
 3. Please follow the dedicated [evaluation guide](evaluation.md) to carry out the experiments.
