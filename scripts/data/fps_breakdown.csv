@@ -1,0 +1,51 @@
+Type,app,package name,vSoC,Fence-off,Prefetch-off
+UHDvideo,XPlayer,video.player.videoplayer,59.6733907,44.68748553,12.13365128
+UHDvideo,MXPlayer,com.mxtech.videoplayer.ad,59.16520421,43.33063989,11.2548901
+UHDvideo,VLC,org.videolan.vlc,55.8769679,44.92625944,12.65282518
+UHDvideo,Video Player,com.ultisw.videoplayer,59.1268799,43.58936082,12.31481485
+UHDvideo,Visha Player,com.transsion.magicshow,59.68488971,44.19869398,12.69055087
+UHDvideo,Oplayer Lite,com.olimsoft.android.oplayer,55.48563759,44.84368188,11.96539913
+UHDvideo,nova,org.courville.nova,59.32549834,43.94051943,12.98394285
+UHDvideo,Video Player,online.video.hd.videoplayer,56.39653409,44.26866349,11.32699928
+UHDvideo,video player for android,video.player.audio.player.music,57.54272057,43.65739471,12.77029348
+UHDvideo,Mplayer,hd.video.player.videoplayer.mplayer.hdvideoplayer,59.1332287,43.35234542,11.02890098
+360video,VR Media Player,com.xojot.vrplayer,59.62042262,44.48333714,12.59537126
+360video,HomeTheater VR,com.blevok.HomeTheaterVR,59.22963117,43.0140401,12.28064077
+360video,VR Player,com.AAA.VRPlayer,59.65411373,43.63197828,13.80685719
+360video,iPlay SBS Player,com.panagola.app.iplay,59.67744951,44.04265647,12.25838813
+360video,VRTV Lite,se.chai.vrtv.free,59.20597334,44.12893669,13.06467598
+360video,VR Player,com.vrplayer.vrapp.vrvideos,59.88234172,44.68296134,13.61162118
+360video,VR 360 Player,com.vrplayer.bestvrvideos,59.62886826,43.03372519,13.997387
+360video,VR Player,com.vrplayer.vrvideoplayer,59.00963205,44.89990808,13.88887153
+360video,VR Media Player,com.rplayer.wrvideo.virtualreality.panorama.vr360,59.7072699,44.66137543,13.50490297
+360video,VR Player,com.goshi.vr.video.player.hd,59.58628312,44.119676,12.73592315
+camera,System Camera,com.android.camera2,59.35014424,54.76446431,59.38412259
+camera,OpenCamera,net.sourceforge.opencamera,59.72460912,53.56949268,59.18975199
+camera,HDcamera,hd.camera,56.04819705,53.96173889,59.11363674
+camera,ProCam X,"com.intermedia.hd,camera.professiona",59.00049421,53.52557851,59.47415916
+camera,Camera FV-5 Lite,com.flavionet.android.camera.lite,59.60036283,54.3632987,59.17147798
+camera,Film it,com.software.illusions.unlimited.filmit,57.31039568,54.36328278,59.05559771
+camera,Professional Camera,best.camera,59.17334972,53.72132,59.45468927
+camera,Camera,com.photo.android.camera,59.17519527,54.07513375,59.08040758
+camera,Camera,beauty.hd.camera,59.13807627,54.00103795,59.56169213
+camera,HD Camera,hd.best.camera,58.80628658,53.36570719,59.50238146
+AR,Arts and Culture,com.google.android.apps.cultural,49.67249444,48.25011849,52.27452109
+AR,Instagram,com.instagram.android,53.87755858,47.68842571,52.89988913
+AR,eBay,com.ebay.mobile,56.21988105,47.70339117,52.7605344
+AR,Google Lens,com.google.android.googlequicksearchbox,57.79448848,48.28902645,52.64541386
+AR,AR Drawing,ar.drawing.sketch.paint.trace.draw.picture.paper,50.29976543,48.15277743,51.03538314
+AR,CalcaApp,com.apliarte.calcaapp,49.82367613,48.64730461,52.84423527
+AR,AR Drawer Pro,com.ardashgdi.drawerprohughd,55.7245626,47.07431185,52.20569946
+AR,AR Drawing Sketch,ar.drawing.sketch.paint.tool,57.81168566,48.05274925,52.73170621
+AR,AR Drawing,com.draw.sketch.ardrawing.trace.anime.paint,57.19609046,47.21349687,51.23352906
+AR,AR Paint,com.osdifa.ardrawing,59.82653592,47.25985234,52.21849645
+Livestream,Streamlabs,com.streamlabs,48.71828568,44.59334778,43.06875986
+Livestream,Larix Screencaster,com.wmspanel.larix_screencaster,58.68330445,43.83110755,43.09865401
+Livestream,LiveNow,com.nabiapp.livenow,57.03568678,43.51288465,42.38345523
+Livestream,CameraFi Live,com.vaultmicro.camerafi.live,59.50621222,43.27041981,42.92509492
+Livestream,Larix Broadcaster,com.wmspanel.arix_broadcaster,56.42293108,44.38628648,43.56028457
+Livestream,RTMP streamer,com.toysoft.rtmpstreamer,36.98306886,43.01720792,42.56954498
+Livestream,Omnistream,three_d_innotech.poc_3dinnotech,-1,-1,-1
+Livestream,CamON Live Streaming,com.spynet.camon,58.53364169,43.28468989,43.47232927
+Livestream,Live Streamer,com.avermedia.screenstreamer,-1,-1,-1
+Livestream,Lily Live,com.allstar.lily.live,40.1990799,43.08481124,43.76930053
