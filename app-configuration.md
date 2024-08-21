@@ -16,7 +16,65 @@ To prevent the server app from influencing evaluation results, it is hosted in a
 
 * **Windows.** Download the prebuilt `nginx` binary with RTMP support [here](https://github.com/illuspas/nginx-rtmp-win32/archive/refs/heads/dev.zip). Unzip the file and click on `nginx.exe` to start the server. You can verify that the server is running by opening `http://localhost:8080` in your browser.
 
-* **Linux.** Install nginx with `sudo apt install todo`. You can verify that the server is running by opening `http://localhost:8080` in your browser.
+* **Linux.** 
+
+  - Begin by running the following commands as a non-root user to update your package listings and install the Nginx module：
+
+    ```shell
+    sudo apt update
+    sudo apt install libnginx-mod-rtmp
+    ```
+
+  - Using `nano` or your favorite text editor, open Nginx’s main configuration file, `/etc/nginx/nginx.conf`, and add this configuration block to the end of the file:
+
+    ```shell
+    sudo nano /etc/nginx/nginx.conf
+    ```
+
+    ```conf
+    . . .
+    rtmp {
+        server {
+            listen 1935;  # RTMP port
+            chunk_size 4096;
+    
+            application live {
+                live on;
+                record off;
+            }
+        }
+    }
+    ```
+
+    - `application live` defines an application block that will be available at the `/live` URL path.
+    - `live on` enables live mode so that multiple users can connect to your stream concurrently, a baseline assumption of video streaming.
+
+  - Now you can reload Nginx with your changes:
+
+    ```shell
+    sudo systemctl reload nginx.service
+    ```
+
+    if your Nginx service is not on, simply use:
+
+    ```shell
+    sudo nginx
+    ```
+
+  - you can test your service with your local video file. To stream it, install `ffmpeg`:
+
+    ```bash
+    sudo apt install ffmpeg
+    ```
+
+    And use `ffmpeg` to send it to your RTMP server:
+
+    ```bash
+    ffmpeg -re -i input.mp4 -c:v libx264 -f flv rtmp://localhost/live/stream
+    ```
+
+    Now you can use video players like VLC to watch your video stream with the url `rtmp://localhost/live/stream` to check your RTMP service.
+
 
 After setting up the server, please configure the streaming settings in the livestream app. If the app asks for an RTMP url and a stream key, enter the url as `rtmp://SERVER-IP-ADDRESS/live`, and the stream key to be `123`. You can set other stream keys as well; just make sure to enter the same stream key when measuring FPS in the next section.
 
