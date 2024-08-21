@@ -59,8 +59,7 @@ df = pd.read_csv(input_file)
 
 simulators = ['vSoC', 'Fence-off', 'Prefetch-off']
 fps = [[],[],[],[],[]]
-errors = [[1.4609211259048054, 7.849903391699883, 3.2167072530929186], [2.562192353438226, 9.534298201785731, 1.7546532406739146], [1.6395829299630487, 1.9178371696923875, 0.3429531024503213], [1.2917318299907237, 2.4136602302651338, 2.0146647784739344], [3.212948383662466, 0.9783427763715623, 1.9442437481435224]]
-
+errors = [[],[],[],[],[]]
 software_types = df['Type'].unique()
 
 for i in range(0,5):
@@ -72,12 +71,15 @@ for i in range(0,5):
         values_filtered = [x for x in values if x != -1]
         if len(values_filtered) > 0:
             avg = np.mean(values_filtered)
+            err = statistics.stdev(values_filtered) if len(values_filtered) > 1 else 0
         else:
             avg = 0
-
+            err = 0
         fps[i].append(avg)
+        errors[i].append(err)
 
 print(fps)
+print(errors)
 
 emulators=['vsoc','fence-off', 'write-invalidate']
 app_keywords=['4k','360','cam','ar','cloud']

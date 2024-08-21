@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import warnings
 import logging
+import statistics
 
 # GLOBAL CONSTANTS
 
@@ -58,7 +59,7 @@ df = pd.read_csv(input_file)
 
 simulators = ['vSoC', 'GAE', 'QEMU-KVM', 'LDplayer', 'Trinity', 'Bluestacks']
 fps = [[],[],[],[],[]]
-errors = [[1.1392345337762795, 5.507066449139084, 1.391635971643799, 2.3232649009571196, 3.6078399455826333, 1.6589884356406208], [1.7019439998315253, 6.1818330389442275, 1.167776961176768, 1.4167536636992086, 3.143924695390193, 2.043807169237412], [1.4789329931885973, 1.061080050827641, 5.89464365367877, 0.2396080882281778, 0.0, 0.21296881921049776], [1.136062525393656, 1.1981944395030772, 1.1670084901168027, 0.42974953341946204, 0.0, 0.37160547274055317], [2.3259677487832198, 1.758950989180658, 1.4788456545276054, 1.026728086021236, 0.0, 3.7210354365790868]]
+errors = [[],[],[],[],[]]
 software_types = df['Type'].unique()
 
 for i in range(0,5):
@@ -70,10 +71,12 @@ for i in range(0,5):
         values_filtered = [x for x in values if x != -1]
         if len(values_filtered) > 0:
             avg = np.mean(values_filtered)
+            err = statistics.stdev(values_filtered) if len(values_filtered) > 1 else 0
         else:
             avg = 0
-
+            err = 0
         fps[i].append(avg)
+        errors[i].append(err)
 
 print(fps)
 f, ax = plt.subplots(figsize=FIGSIZE)

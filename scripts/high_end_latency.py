@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import warnings
 import logging
+import statistics
 
 # GLOBAL CONSTANTS
 
@@ -54,8 +55,7 @@ df = pd.read_csv(input_file)
 
 simulators = ['vSoC', 'GAE', 'QEMU-KVM', 'LDplayer', 'Bluestacks']
 latency = [[],[],[]]
-errors = [[8.185180818842277, 7.111694013466079, 19.398506333135405, 15.20330696442013, 9.185444164758692], [5.392995881309523, 3.277209906310491, 18.82249908167996, 4.291052498197821, 13.055920861602276], [32.20603177133398, 13.316665858420562, 3.409701572217811, 29.507510247158706, 8.325607640929857], [], [], []]
-
+errors = [[],[],[]]
 software_types = df['Type'].unique()
 
 for i in range(0,3):
@@ -67,9 +67,12 @@ for i in range(0,3):
         values_filtered = [x for x in values if x != -1]
         if len(values_filtered) > 0:
             avg = np.mean(values_filtered)
+            err = statistics.stdev(values_filtered) if len(values_filtered) > 1 else 0
         else:
             avg = 0
+            err = 0
         latency[i].append(avg)
+        errors[i].append(err)
 
 print(latency)
 f, ax = plt.subplots(figsize=FIGSIZE)
