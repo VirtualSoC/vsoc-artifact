@@ -54,7 +54,7 @@ The scripts' functions are detailed as follows.
 
 ### FPS and Latency Data
 
-FPS and latency measurement data are recorded in `.csv` tables in `scripts/data`, It contains the FPS performance data of each different emulator across 50 applications and the latency performance data (in milliseconds) across 30 applications.
+FPS and latency measurement data are recorded in `.csv` tables in `scripts/data`, It contains the FPS performance data of each different emulator across 50 apps and the latency performance data (in milliseconds) across 30 apps. The full list of apps can be found in the [vSoC wiki](https://github.com/VirtualSoC/vsoc/wiki/Mobile-Apps-Evaluated).
 
 We distinguish between functional problems and performance problems in the tables. If the app crashes, generates an ANR (App-Not-Responding) error, does not respond to user input during the evaluation, or does not produce any meaningful content, we consider it a functional problem and the relevant performance field will be marked `-1`. In contrast, if the app frequently stutters, but does not crash, does not generate ANR, and reacts to user input normally, we consider it a performance problem and continue the evaluation. The bar plots include apps with performance problems, but exclude those with functional ones.
 
