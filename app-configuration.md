@@ -55,13 +55,13 @@ To prevent the server app from influencing evaluation results, it is hosted in a
     sudo systemctl reload nginx.service
     ```
 
-    if your Nginx service is not on, simply use:
+    If your Nginx service is not on, simply use:
 
     ```shell
     sudo nginx
     ```
 
-  - you can test your service with your local video file. To stream it, install `ffmpeg`:
+  - You can test your service with your local video file. To stream it, install `ffmpeg`:
 
     ```bash
     sudo apt install ffmpeg
