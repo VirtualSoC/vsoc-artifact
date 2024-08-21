@@ -7,7 +7,7 @@ among mobile SoC devices, we choose five types (10 apps each) of emerging apps t
 Note: for AR apps, since the Google ARCore framework is not supported on most emulators, we select the top-10 apps that can run without Google ARCore. For livestream apps, we select the top-10 apps that support streaming over local area networks to minimize the impact of network instabilities on the results.
 
 
-* **UHD Video**
+### UHD Video
 
 | ID | App Name | Package Name |
 | -- | -------- | ------------ |
@@ -23,7 +23,7 @@ Note: for AR apps, since the Google ARCore framework is not supported on most em
 | 10 | Mplayer | hd.video.player.videoplayer.mplayer.hdvideoplayer |
 
 
-* **360° Video**
+### 360° Video
 
 | ID | App Name | Package Name |
 | -- | -------- | ------------ |
@@ -39,22 +39,23 @@ Note: for AR apps, since the Google ARCore framework is not supported on most em
 | 10 | 3D VR Video Player HD | com.goshi.vr.video.player.hd |
 
 
-* **Camera**
+### Camera
+
 | ID | App Name | Package Name |
 | -- | -------- | ------------ |
 | 1  | System Camera | com.android.camera2 |
 | 2  | OpenCamera | net.sourceforge.opencamera |
 | 3  | HDcamera | hd.camera |
-| 4    | ProCam X | com.intermedia.hd,camera.professiona |
-| 5    | Camera FV-5 Lite | com.flavionet.android.camera.lite |
-| 6    | Film it | com.software.illusions.unlimited.filmit |
-| 7    | Professional Camera | best.camera |
-| 8    | Camera for Android | com.photo.android.camera |
-| 9    | Camera | beauty.hd.camera |
-| 10   | HD Camera | hd.best.camera |
+| 4  | ProCam X | com.intermedia.hd,camera.professiona |
+| 5  | Camera FV-5 Lite | com.flavionet.android.camera.lite |
+| 6  | Film it | com.software.illusions.unlimited.filmit |
+| 7  | Professional Camera | best.camera |
+| 8  | Camera for Android | com.photo.android.camera |
+| 9  | Camera | beauty.hd.camera |
+| 10 | HD Camera | hd.best.camera |
 
 
-* **AR**
+## AR
 
 | ID | App Name | Package Name |
 | -- | -------- | ------------ |
@@ -69,7 +70,7 @@ Note: for AR apps, since the Google ARCore framework is not supported on most em
 | 9    | AR Drawing | com.draw.sketch.ardrawing.trace.anime.paint |
 | 10   | AR Drawing - Trace to Sketch | com.osdifa.ardrawing |
 
-* **Livestream**
+## Livestream
 
 | ID | App Name | Package Name |
 | -- | -------- | ------------ |
