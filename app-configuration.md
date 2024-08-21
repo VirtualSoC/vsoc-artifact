@@ -18,7 +18,7 @@ To prevent the server app from influencing evaluation results, it is hosted in a
 
 * **Linux.** 
 
-  - Begin by running the following commands as a non-root user to update your package listings and install the Nginx module.
+  - Begin by running the following commands to update your package listings and install the Nginx module.
 
     ```shell
     sudo apt update
@@ -32,7 +32,7 @@ To prevent the server app from influencing evaluation results, it is hosted in a
     ```
 
     ```conf
-    . . .
+    ...
     rtmp {
         server {
             listen 1935;  # RTMP port
@@ -60,21 +60,6 @@ To prevent the server app from influencing evaluation results, it is hosted in a
     ```shell
     sudo nginx
     ```
-
-  - You can test your service with your local video file. To stream it, install `ffmpeg`.
-
-    ```bash
-    sudo apt install ffmpeg
-    ```
-
-    And use `ffmpeg` to send it to your RTMP server. Find any video you like or just use the videos [here](https://drive.google.com/drive/folders/1fKdt2Vkl85X0q-GxcRm13p6N2T_ROb2d?usp=sharing) for testing. `input.mp4` is the video name. Change it to the file name you actually use.
-
-    ```bash
-    ffmpeg -re -i input.mp4 -c:v libx264 -f flv rtmp://localhost/live/stream
-    ```
-
-    Now you can use video players like VLC to watch your video stream with the url `rtmp://localhost/live/stream` to check your RTMP service.
-
 
 After setting up the server, please configure the streaming settings in the livestream app. If the app asks for an RTMP url and a stream key, enter the url as `rtmp://SERVER-IP-ADDRESS/live`, and the stream key to be `123`. You can set other stream keys as well; just make sure to enter the same stream key when measuring FPS in the next section.
 

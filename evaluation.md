@@ -52,7 +52,7 @@ To measure motion-to-photon latency, we use a high-speed camera to record videos
 
 ![](todo)
 
-Note: considering that professional high-speed cameras can be expensive, you can use the slow motion mode of smartphone cameras for a rough measurement. High-end smartphones can provide a capture frame rate of 240-480 FPS, and from our experience, they typically incur <20 *ms* of error.
+Note: considering that professional high-speed cameras can be expensive, you can use the slow motion mode of smartphone cameras for a rough measurement. High-end smartphones can provide a capture frame rate of 480 FPS, and from our experience, they typically incur <20 *ms* of error.
 
 To ease recognition of user actions, for camera and AR apps, we use flashlights to produce sudden luminance changes on camera streams. For livestream apps, we flash the screen contents of the emulators using the built-in developer tools of Android. More concretely, we turn off all Android animations, so every UI change of the Android system will be sudden and easier to recognize.
 
