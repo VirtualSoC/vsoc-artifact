@@ -18,14 +18,14 @@ To prevent the server app from influencing evaluation results, it is hosted in a
 
 * **Linux.** 
 
-  - Begin by running the following commands as a non-root user to update your package listings and install the Nginx module：
+  - Begin by running the following commands as a non-root user to update your package listings and install the Nginx module.
 
     ```shell
     sudo apt update
     sudo apt install libnginx-mod-rtmp
     ```
 
-  - Using `nano` or your favorite text editor, open Nginx’s main configuration file, `/etc/nginx/nginx.conf`, and add this configuration block to the end of the file:
+  - Using `nano` or your favorite text editor, open Nginx’s main configuration file, `/etc/nginx/nginx.conf`, and add this configuration block to the end of the file.
 
     ```shell
     sudo nano /etc/nginx/nginx.conf
@@ -49,25 +49,25 @@ To prevent the server app from influencing evaluation results, it is hosted in a
     - `application live` defines an application block that will be available at the `/live` URL path.
     - `live on` enables live mode so that multiple users can connect to your stream concurrently, a baseline assumption of video streaming.
 
-  - Now you can reload Nginx with your changes:
+  - Now you can reload Nginx with your changes.
 
     ```shell
     sudo systemctl reload nginx.service
     ```
 
-    If your Nginx service is not on, simply use:
+    If your Nginx service is not on, simply use the command below.
 
     ```shell
     sudo nginx
     ```
 
-  - You can test your service with your local video file. To stream it, install `ffmpeg`:
+  - You can test your service with your local video file. To stream it, install `ffmpeg`.
 
     ```bash
     sudo apt install ffmpeg
     ```
 
-    And use `ffmpeg` to send it to your RTMP server:
+    And use `ffmpeg` to send it to your RTMP server. Find any video you like or just use the videos [here](https://drive.google.com/drive/folders/1fKdt2Vkl85X0q-GxcRm13p6N2T_ROb2d?usp=sharing) for testing. `input.mp4` is the video name. Change it to the file name you actually use.
 
     ```bash
     ffmpeg -re -i input.mp4 -c:v libx264 -f flv rtmp://localhost/live/stream
