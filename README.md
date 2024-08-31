@@ -16,39 +16,39 @@ The scripts' functions are detailed as follows.
 
 - `memory_size_CDF.py`
 
-  This script draws `Figure 4`. Drawn figures are placed in `scripts/figs/datasize_cdf.pdf`.
+  This script draws `Figure 4`. Drawn figures are placed in `figs/datasize_cdf.pdf`.
 
 - `coherence_time_CDF.py`
 
-  This script draws `Figure 5` . Drawn figures are placed in ``scripts/figs/coherence_cdf.pdf``.
+  This script draws `Figure 5` . Drawn figures are placed in ``figs/coherence_cdf.pdf``.
 
 - `slack_interval_CDF.py`
 
-  This script draws `Figure 6` . Drawn figures are placed in `scripts/figs/interval_cdf.pdf`.
+  This script draws `Figure 6` . Drawn figures are placed in `figs/interval_cdf.pdf`.
 
 - `high_end_fps.py`
 
-  This script draws `Figure 10` . Drawn figures are placed in `scripts/figs/application_fps_high.pdf`.
+  This script draws `Figure 10` . Drawn figures are placed in `figs/application_fps_high.pdf`.
 
 - `middle_end_fps.py`
 
-  This script draws `Figure 11`. Drawn figures are placed in `scripts/figs/application_fps_middle.pdf`.
+  This script draws `Figure 11`. Drawn figures are placed in `figs/application_fps_middle.pdf`.
 
 - `breakdown_fps.py`
 
-  This script draws `Figure 12` . Drawn figures are placed in `scripts/figs/breakdown_fps.pdf`.
+  This script draws `Figure 12` . Drawn figures are placed in `figs/breakdown_fps.pdf`.
 
 - `high_end_latency.py`
 
-  This script draws `Figure 13` . Drawn figures are placed in `scripts/figs/high_end_latency.pdf`.
+  This script draws `Figure 13` . Drawn figures are placed in `figs/high_end_latency.pdf`.
 
 - `middle_end_latency.py`
 
-  This script draws `Figure 14` . Drawn figures are placed in `scripts/figs/middle_end_latency.pdf`.
+  This script draws `Figure 14` . Drawn figures are placed in `figs/middle_end_latency.pdf`.
 
 - `access_latency_CDF.py`
 
-  This script draws `Figure 15`. Drawn figures are placed in `scripts/figs/micro_latency_cdf.pdf`.
+  This script draws `Figure 15`. Drawn figures are placed in `figs/micro_latency_cdf.pdf`.
 
 ## 2. Data Format
 
@@ -64,10 +64,10 @@ Microbenchmark data is stored in `.txt` files, whose data units are consistent w
 
 | Folder         | Discription                                                  |
 | -------------- | ------------------------------------------------------------ |
-| access_latency | Benchmark data for `scripts/figs/micro_latency_cdf.pdf` |
-| coherence_time | Benchmark data for `scripts/figs/coherence_cdf.pdf` |
-| memory_size    | Benchmark data for `scripts/figs/datasize_cdf.pdf` |
-| slack_interval | Benchmark data for `scripts/figs/interval_cdf.pdf`  |
+| access_latency | Benchmark data for `figs/micro_latency_cdf.pdf` |
+| coherence_time | Benchmark data for `figs/coherence_cdf.pdf` |
+| memory_size    | Benchmark data for `figs/datasize_cdf.pdf` |
+| slack_interval | Benchmark data for `figs/interval_cdf.pdf`  |
 
 ## 3. Licensing
 
