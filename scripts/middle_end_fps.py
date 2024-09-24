@@ -24,6 +24,9 @@ colors_dark = ['#ffffff', '#c0c0c0', '#808080', '#404040', '#000000']
 font = {'family': 'Arial',
         'weight' : 'normal',
         'size'   : 40}
+
+matplotlib.rcParams['pdf.fonttype']=42
+matplotlib.rcParams['ps.fonttype']=42
 bar_common_args = {"edgecolor": 'black', "linewidth": line_width, "zorder": 0}
 bar1_args = {"facecolor":colors_dark[0]}
 bar2_args = {"facecolor":colors_dark[1]}
@@ -51,13 +54,13 @@ error_config = {
     'capsize': 3,
     'linestyle': '-'
 }
-app_id = ['vSoC', 'GAE','Q-K', "LD","Trinity","BS"]
+app_id = ['vSoC', 'GAE','Q-K', "LD","BS","Trinity"]
 app_name=['UHD Video','360° Video','Camera','AR','Livestream']
 
 input_file = "data/fps_middle_end.csv"
 df = pd.read_csv(input_file)
 
-simulators = ['vSoC', 'GAE', 'QEMU-KVM', 'LDplayer', 'Trinity', 'Bluestacks']
+simulators = ['vSoC', 'GAE', 'QEMU-KVM', 'LDplayer', 'Bluestacks', 'Trinity']
 fps = [[],[],[],[],[]]
 errors = [[],[],[],[],[]]
 software_types = df['Type'].unique()

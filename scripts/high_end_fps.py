@@ -24,6 +24,8 @@ colors_dark = ['#ffffff', '#c0c0c0', '#808080', '#404040', '#000000']
 font = {'family': 'Arial',
         'weight' : 'normal',
         'size'   : 40}
+matplotlib.rcParams['pdf.fonttype']=42
+matplotlib.rcParams['ps.fonttype']=42
 bar_common_args = {"edgecolor": 'black', "linewidth": line_width, "zorder": 0}
 bar1_args = {"facecolor":colors_dark[0]}
 bar2_args = {"facecolor":colors_dark[1]}
@@ -51,13 +53,13 @@ error_config = {
     'capsize': 3,
     'linestyle': '-'
 }
-app_id = ['vSoC', 'GAE','Q-K', "LD","Trinity","BS"]
+app_id = ['vSoC', 'GAE','Q-K', "LD","BS","Trinity"]
 app_name=['UHD Video','360° Video','Camera','AR','Livestream']
 
 input_file = "data/fps_high_end.csv"
 df = pd.read_csv(input_file)
 
-simulators = ['vSoC', 'GAE', 'QEMU-KVM', 'LDplayer', 'Trinity', 'Bluestacks']
+simulators = ['vSoC', 'GAE', 'QEMU-KVM', 'LDplayer', 'Bluestacks', 'Trinity']
 fps = [[],[],[],[],[]]
 errors = [[],[],[],[],[]]
 software_types = df['Type'].unique()
@@ -79,6 +81,10 @@ for i in range(0,5):
         errors[i].append(err)
 
 print(fps)
+# sum = 0
+# for i in range(0,5):
+#     sum += fps[i][0]
+# print(sum/5)
 f, ax = plt.subplots(figsize=FIGSIZE)
 
 x = np.arange(len(app_id))  # the label locations

@@ -24,6 +24,8 @@ colors_dark = ['#ffffff', '#c0c0c0', '#808080', '#404040', '#000000']
 font = {'family': 'Arial',
         'weight' : 'normal',
         'size'   : 40}
+matplotlib.rcParams['pdf.fonttype']=42
+matplotlib.rcParams['ps.fonttype']=42
 bar_common_args = {"linewidth": line_width, "zorder": 3}
 bar1_args = {"edgecolor": 'black', "facecolor":colors_dark[0]}
 bar2_args = {"edgecolor": 'black', "facecolor":colors_dark[1]}
@@ -80,6 +82,17 @@ for i in range(0,5):
 
 print(fps)
 print(errors)
+sum1 = [0]*3
+sum2 = [0]*3
+
+for j in range(0,3):
+    for i in range(0, 5):
+        sum1[j] += fps[i][j]
+        if i < 2:
+            sum2[j] += fps[i][j]
+    sum1[j]/=5
+    sum2[j]/=2
+print(sum1,sum2)
 
 emulators=['vsoc','fence-off', 'write-invalidate']
 app_keywords=['4k','360','cam','ar','cloud']

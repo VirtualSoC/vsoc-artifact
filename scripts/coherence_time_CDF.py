@@ -20,6 +20,8 @@ colors = ['#7F449B', '#009D72', '#E5A023']
 font = {'family': 'Arial',
         'weight' : 'normal',
         'size'   : 40}
+matplotlib.rcParams['pdf.fonttype']=42
+matplotlib.rcParams['ps.fonttype']=42
 bar_common_args = {"linewidth": line_width, "zorder": 3, "facecolor": "white"}
 bar1_args = {"edgecolor": colors[0], "hatch": hatches[0]}
 bar2_args = {"edgecolor": colors[1], "hatch": hatches[1]}

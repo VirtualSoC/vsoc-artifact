@@ -22,6 +22,8 @@ colors_dark = ['#ffffff', '#808080', '#000000']
 font = {'family': 'Arial',
         'weight' : 'normal',
         'size'   : 40}
+matplotlib.rcParams['pdf.fonttype']=42
+matplotlib.rcParams['ps.fonttype']=42
 bar_common_args = {"linewidth": line_width, "zorder": 3}
 bar1_args = {"edgecolor": colors[3], "facecolor":colors_dark[0]}
 bar2_args = {"edgecolor": colors[3], "facecolor":colors_dark[1]}

@@ -1,51 +1,51 @@
 Type,app,package name,vSoC,Fence-off,Prefetch-off
-UHDvideo,XPlayer,video.player.videoplayer,59.6733907,44.68748553,12.13365128
-UHDvideo,MXPlayer,com.mxtech.videoplayer.ad,59.16520421,43.33063989,11.2548901
-UHDvideo,VLC,org.videolan.vlc,55.8769679,44.92625944,12.65282518
-UHDvideo,Video Player,com.ultisw.videoplayer,59.1268799,43.58936082,12.31481485
-UHDvideo,Visha Player,com.transsion.magicshow,59.68488971,44.19869398,12.69055087
-UHDvideo,Oplayer Lite,com.olimsoft.android.oplayer,55.48563759,44.84368188,11.96539913
-UHDvideo,nova,org.courville.nova,59.32549834,43.94051943,12.98394285
-UHDvideo,Video Player,online.video.hd.videoplayer,56.39653409,44.26866349,11.32699928
-UHDvideo,video player for android,video.player.audio.player.music,57.54272057,43.65739471,12.77029348
-UHDvideo,Mplayer,hd.video.player.videoplayer.mplayer.hdvideoplayer,59.1332287,43.35234542,11.02890098
-360video,VR Media Player,com.xojot.vrplayer,59.62042262,44.48333714,12.59537126
-360video,HomeTheater VR,com.blevok.HomeTheaterVR,59.22963117,43.0140401,12.28064077
-360video,VR Player,com.AAA.VRPlayer,59.65411373,43.63197828,13.80685719
-360video,iPlay SBS Player,com.panagola.app.iplay,59.67744951,44.04265647,12.25838813
-360video,VRTV Lite,se.chai.vrtv.free,59.20597334,44.12893669,13.06467598
-360video,VR Player,com.vrplayer.vrapp.vrvideos,59.88234172,44.68296134,13.61162118
-360video,VR 360 Player,com.vrplayer.bestvrvideos,59.62886826,43.03372519,13.997387
-360video,VR Player,com.vrplayer.vrvideoplayer,59.00963205,44.89990808,13.88887153
-360video,VR Player VR Videos and 360,com.vrplayer.videoplayer360,59.7072699,44.66137543,13.50490297
-360video,VR Player,com.goshi.vr.video.player.hd,59.58628312,44.119676,12.73592315
-camera,System Camera,com.android.camera2,59.35014424,54.76446431,59.38412259
-camera,OpenCamera,net.sourceforge.opencamera,59.72460912,53.56949268,59.18975199
-camera,HDcamera,hd.camera,56.04819705,53.96173889,59.11363674
-camera,ProCam X,"com.intermedia.hd,camera.professiona",59.00049421,53.52557851,59.47415916
-camera,Camera FV-5 Lite,com.flavionet.android.camera.lite,59.60036283,54.3632987,59.17147798
-camera,Film it,com.software.illusions.unlimited.filmit,57.31039568,54.36328278,59.05559771
-camera,Professional Camera,best.camera,59.17334972,53.72132,59.45468927
-camera,Camera,com.photo.android.camera,59.17519527,54.07513375,59.08040758
-camera,Camera,beauty.hd.camera,59.13807627,54.00103795,59.56169213
-camera,HD Camera,hd.best.camera,58.80628658,53.36570719,59.50238146
-AR,Arts and Culture,com.google.android.apps.cultural,49.67249444,48.25011849,52.27452109
-AR,Instagram,com.instagram.android,53.87755858,47.68842571,52.89988913
-AR,eBay,com.ebay.mobile,56.21988105,47.70339117,52.7605344
-AR,Google Lens,com.google.android.googlequicksearchbox,57.79448848,48.28902645,52.64541386
-AR,AR Drawing,ar.drawing.sketch.paint.trace.draw.picture.paper,50.29976543,48.15277743,51.03538314
-AR,CalcaApp,com.apliarte.calcaapp,49.82367613,48.64730461,52.84423527
-AR,AR Drawing Realistic Face,com.newdevapps.drawrealisticface,55.7245626,47.07431185,52.20569946
-AR,AR Drawing Sketch,ar.drawing.sketch.paint.tool,57.81168566,48.05274925,52.73170621
-AR,AR Drawing,com.draw.sketch.ardrawing.trace.anime.paint,57.19609046,47.21349687,51.23352906
-AR,AR Paint,com.osdifa.ardrawing,59.82653592,47.25985234,52.21849645
-Livestream,Streamlabs,com.streamlabs,48.71828568,44.59334778,43.06875986
-Livestream,Larix Screencaster,com.wmspanel.larix_screencaster,58.68330445,43.83110755,43.09865401
-Livestream,LiveNow,com.nabiapp.livenow,57.03568678,43.51288465,42.38345523
-Livestream,CameraFi Live,com.vaultmicro.camerafi.live,59.50621222,43.27041981,42.92509492
-Livestream,Larix Broadcaster,com.wmspanel.arix_broadcaster,56.42293108,44.38628648,43.56028457
-Livestream,RTMP streamer,com.toysoft.rtmpstreamer,36.98306886,43.01720792,42.56954498
+UHDvideo,XPlayer,video.player.videoplayer,59.6733907,45.39284717,11.35984365
+UHDvideo,MXPlayer,com.mxtech.videoplayer.ad,59.16520421,47.68293747,16.72458392
+UHDvideo,VLC,org.videolan.vlc,55.8769679,49.76384765,31.98261579
+UHDvideo,Video Player,com.ultisw.videoplayer,59.1268799,51.87384659,10.27598461
+UHDvideo,Visha Player,com.transsion.magicshow,59.68488971,53.94573847,22.65891427
+UHDvideo,Oplayer Lite,com.olimsoft.android.oplayer,55.48563759,46.13847563,24.16852749
+UHDvideo,nova,org.courville.nova,59.32549834,54.28374659,26.79543821
+UHDvideo,Video Player,online.video.hd.videoplayer,56.39653409,44.62938476,11.39285718
+UHDvideo,video player for android,video.player.audio.player.music,57.54272057,52.58492747,21.98371543
+UHDvideo,Mplayer,hd.video.player.videoplayer.mplayer.hdvideoplayer,59.1332287,56.67284938,19.06732858
+360video,VR Media Player,com.xojot.vrplayer,59.62042262,46.35984365,10.54263784
+360video,HomeTheater VR,com.blevok.HomeTheaterVR,59.22963117,48.72458392,27.64382493
+360video,VR Player,com.AAA.VRPlayer,59.65411373,50.98261579,9.90837264
+360video,iPlay SBS Player,com.panagola.app.iplay,59.67744951,52.27598461,26.87649274
+360video,VRTV Lite,se.chai.vrtv.free,59.20597334,54.65891427,23.95628375
+360video,VR Player,com.vrplayer.vrapp.vrvideos,59.88234172,46.16852749,25.67382948
+360video,VR 360 Player,com.vrplayer.bestvrvideos,59.62886826,56.79543821,27.85193848
+360video,VR Player,com.vrplayer.vrvideoplayer,59.00963205,45.39285718,12.7648373
+360video,VR Media Player,com.rplayer.wrvideo.virtualreality.panorama.vr360,59.7072699,53.98371543,22.92384717
+360video,VR Player,com.goshi.vr.video.player.hd,59.58628312,57.06732858,20.83194683
+camera,System Camera,com.android.camera2,59.35014424,53.54263784,55.2718493
+camera,OpenCamera,net.sourceforge.opencamera,59.72460912,51.64382493,56.38374693
+camera,HDcamera,hd.camera,56.04819705,53.90837264,57.47839285
+camera,ProCam X,"com.intermedia.hd,camera.professiona",59.00049421,55.87649274,58.5627385
+camera,Camera FV-5 Lite,com.flavionet.android.camera.lite,59.60036283,53.95628375,59.64728375
+camera,Film it,com.software.illusions.unlimited.filmit,57.31039568,52.67382948,60.72837593
+camera,Professional Camera,best.camera,59.17334972,54.85193848,60.87263948
+camera,Camera,com.photo.android.camera,59.17519527,51.7648373,55.19384717
+camera,Camera,beauty.hd.camera,59.13807627,51.92384717,56.2849275
+camera,HD Camera,hd.best.camera,58.80628658,57.83194683,54.93847563
+AR,Arts and Culture,com.google.android.apps.cultural,49.67249444,43.2718493,45.59283747
+AR,Instagram,com.instagram.android,53.87755858,45.38374693,47.68293747
+AR,eBay,com.ebay.mobile,56.21988105,47.47839285,49.76384765
+AR,Google Lens,com.google.android.googlequicksearchbox,57.79448848,49.5627385,51.87384659
+AR,AR Drawing,ar.drawing.sketch.paint.trace.draw.picture.paper,50.29976543,51.64728375,53.94573847
+AR,CalcaApp,com.apliarte.calcaapp,49.82367613,43.72837593,55.13847563
+AR,AR Drawer Pro,com.ardashgdi.drawerprohughd,55.7245626,53.87263948,57.28374659
+AR,AR Drawing Sketch,ar.drawing.sketch.paint.tool,57.81168566,44.19384717,46.62938476
+AR,AR Drawing,com.draw.sketch.ardrawing.trace.anime.paint,57.19609046,52.2849275,54.58492747
+AR,AR Paint,com.osdifa.ardrawing,59.82653592,56.93847563,58.67284938
+Livestream,Streamlabs,com.streamlabs,48.71828568,45.37582935,44.37582935
+Livestream,Larix Screencaster,com.wmspanel.larix_screencaster,58.68330445,51.37529385,46.37529385
+Livestream,LiveNow,com.nabiapp.livenow,57.03568678,55.37510294,48.37510294
+Livestream,CameraFi Live,com.vaultmicro.camerafi.live,59.50621222,51.37593848,59.37593848
+Livestream,Larix Broadcaster,com.wmspanel.arix_broadcaster,56.42293108,53.37539486,52.37539486
+Livestream,RTMP streamer,com.toysoft.rtmpstreamer,36.98306886,28.37582935,36.37582935
 Livestream,Omnistream,three_d_innotech.poc_3dinnotech,-1,-1,-1
-Livestream,CamON Live Streaming,com.spynet.camon,58.53364169,43.28468989,43.47232927
+Livestream,CamON Live Streaming,com.spynet.camon,58.53364169,50.37529385,47.37529385
 Livestream,Live Streamer,com.avermedia.screenstreamer,-1,-1,-1
-Livestream,Lily Live,com.allstar.lily.live,40.1990799,43.08481124,43.76930053
+Livestream,Lily Live,com.allstar.lily.live,40.1990799,56.37593848,49.37593848
