@@ -46,9 +46,13 @@ The scripts' functions are detailed as follows.
 
   This script draws `Figure 14` . Drawn figures are placed in `figs/middle_end_latency.pdf`.
 
+- `normal_app_fps.py`
+
+  This script draws `Figure 15`. Drawn figures are placed in `figs/other_fps.pdf`.
+
 - `access_latency_CDF.py`
 
-  This script draws `Figure 15`. Drawn figures are placed in `figs/micro_latency_cdf.pdf`.
+  This script draws `Figure 16`. Drawn figures are placed in `figs/micro_latency_cdf.pdf`.
 
 ## 2. Data Format
 
